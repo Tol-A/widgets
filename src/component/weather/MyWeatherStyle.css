@@ -1,0 +1,60 @@
+.weather {
+    max-width: 400px;
+    width: 100%;
+    background-color: rgb(65, 65, 215);
+    text-align: center;
+    border-radius: 6px;
+    border: 2px solid black;
+    color:white;
+    padding-bottom: 3rem;
+    margin: 3rem auto;
+  }
+  .knowWeather {
+    max-width: 400px;
+    padding:  1rem 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 2rem;
+  }
+  .weatherData p {
+    color:rgb(212, 30, 30);
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .weatherData img {
+    max-width: 100px;
+    width: 100%;
+  }
+  .knowWeather input {
+    width: 80%;
+    border-radius: 10px;
+    border:none;
+    font-size: 35px;
+  }
+  .knowWeather button {
+    border-radius: 50%;
+    border:none;
+    padding: 0.8rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .knowWeather button:hover {
+    color:white;;
+    background-color: rgb(226, 213, 213);
+  }
+  .weatherDetails{
+    display: flex;
+    justify-content:space-around;
+    font-size: 25px;
+  }
+  .weatherDetails .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60px;
+    justify-content: space-around;
+    
+  }
+  

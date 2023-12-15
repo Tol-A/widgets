@@ -1,0 +1,57 @@
+.tableContainer {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:rgb(251, 252, 248);
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem;
+    min-width: 450px;
+    margin-top: 3rem;
+    text-align: left;
+  }
+  
+  .tableContainer input{
+    width: 30%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    
+  }
+ 
+  
+  table.unstyledTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #000000;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+  }
+  table.unstyledTable td, table.unstyledTable th {
+    border: 1px solid #484848;
+    padding: 10px 10px;
+  }
+  table.unstyledTable tbody td {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  table.unstyledTable thead {
+    background: #D2D2D2;
+    background: -moz-linear-gradient(top, #dddddd 0%, #d6d6d6 66%, #D2D2D2 100%);
+    background: -webkit-linear-gradient(top, #dddddd 0%, #d6d6d6 66%, #D2D2D2 100%);
+    background: linear-gradient(to bottom, #dddddd 0%, #d6d6d6 66%, #D2D2D2 100%);
+    border-bottom: 0px solid #444444;
+  
+  }
+  table.unstyledTable thead th {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+  }
+  table.unstyledTable thead th:first-child {
+    border-left: none;
+  }
+  

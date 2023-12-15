@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Layout from "./pages/Layout";
+import MyMovieSearch from './component/movieSearch/MyMovieSearch'
+import MyCalculator from "./component/calculator/MyCalculator";
+import MyWeather from "./component/weather/MyWeather";
+import MyTable from "./component/table/MyTable";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path='/' element = {<Layout/>}>
+          <Route index element = {<MyMovieSearch/>}/>
+          <Route path='weather' element = {<MyWeather/>}/>
+          <Route path='table' element = {<MyTable/>}/>
+          <Route path='calculate' element = {<MyCalculator/>}/> 
+        </Route>
+      </Routes>
+    </>
   );
 }
 
